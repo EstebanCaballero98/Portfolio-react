@@ -1,9 +1,15 @@
 import React from "react";
+import TextAnimation from "./TypeAnimation";
 
 function LandingDisplay() {
   return (
     <>
-      <h1>hello landing page</h1>
+      <div className="landingDisplay">
+        <h1>Hey, I'm Geoffrey Cotton</h1>
+        <h2>
+          <TextAnimation />
+        </h2>
+      </div>
     </>
   );
 }
