@@ -1,3 +1,4 @@
+@import url("http://fonts.cdnfonts.com/css/neo-latina");
 * {
   box-sizing: border-box;
 }
@@ -6,6 +7,7 @@ body {
   font-family: "Roboto", sans-serif;
   display: flexbox;
   flex-direction: column;
+  font-family: "Matrix", sans-serif;
   position: relative;
   align-items: center; /*align horizontally*/
   justify-content: center; /*align vertically*/
@@ -14,12 +16,35 @@ body {
 }
 
 .landingDisplay {
+  font-family: "neo latina", sans-serif;
   display: flex;
+  font-size: larger;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: "Courier New", Courier, monospace;
-  color: white;
+  color: rgb(255, 254, 254);
+  height: 100vh;
+  width: 100vw;
+}
+.projectsDisplay {
+  font-family: "neo latina", sans-serif;
+  display: flex;
+  font-size: larger;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 254, 254);
+  height: 100vh;
+  width: 100vw;
+}
+.aboutMeDisplay {
+  font-family: "neo latina", sans-serif;
+  display: flex;
+  font-size: larger;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 254, 254);
   height: 100vh;
   width: 100vw;
 }
